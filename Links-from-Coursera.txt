@@ -1,0 +1,61 @@
+Week 5: Explainability
+
+Fooling DNNs:
+
+https://arxiv.org/pdf/1607.02533.pdf
+
+https://arxiv.org/pdf/1412.6572.pdf
+
+XAI:
+
+http://www.cs.columbia.edu/~orb/papers/xai_survey_paper_2017.pdf
+
+Interpretable models
+
+https://christophm.github.io/interpretable-ml-book/
+
+https://www.tensorflow.org/lattice
+
+Dol bear law:
+
+https://en.wikipedia.org/wiki/Dolbear%27s_law
+
+TensorFlow Lattice:
+
+https://www.tensorflow.org/lattice
+
+https://jmlr.org/papers/volume17/15-243/15-243.pdf
+
+PDP: 
+
+https://github.com/SauceCat/PDPbox
+
+https://scikit-learn.org/stable/auto_examples/inspection/plot_partial_dependence.html
+
+Permutation Feature Importance:
+
+http://arxiv.org/abs/1801.01489
+
+Shapley values:
+
+https://en.wikipedia.org/wiki/Shapley_value
+
+SHAP:
+
+https://github.com/slundberg/shap
+
+ TCAV:
+
+https://arxiv.org/pdf/1711.11279.pdf
+
+ LIME:
+
+https://github.com/marcotcr/lime
+
+Google Cloud XAI
+
+https://storage.googleapis.com/cloud-ai-whitepapers/AI%20Explainability%20Whitepaper.pdf
+
+Integrated gradients:
+
+https://arxiv.org/pdf/1703.01365.pdf
