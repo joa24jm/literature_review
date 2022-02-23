@@ -1,6 +1,9 @@
 # Which feature is important for your model?
+
 ## A systematic literature review for machine learning explainability in the medical sector
+
 ### Included Methods
+
 | Method / Taxonomy                                                                                                                                                               | Specific (S)<br> or <br>Agnostic (A) | Local (L)<br>or<br>Global (G) | Intrinsic (I)<br>or<br>Post-Hoc (P) | Adresses<br>Neural Networks | Adresses<br>Computer Vision Tasks | Addresses <br>Tabular Data | Year <br>of publication | \# citations in<br>Google Scholar<br>as of 21-12-03 | Regr. (R)<br>or<br>Classif. (C) | Source Code<br>Freely Available                                                                                  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ----------------------------- | ----------------------------------- | --------------------------- | --------------------------------- | ---------------------- | ------------------- | ----------------------------------- | ------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | [Partial Dependence Plots (PDP)](https://www.jstor.org/stable/2699986?seq=1#metadata_info_tab_contents)                                                                          | A                            | G                             | P                                   | 🛇                          | 🛇                                | ✓                      | 2001                | 15545                               | R and C                         | [✓](https://scikit-learn.org/stable/modules/partial_dependence.html)                                             |
@@ -30,20 +33,38 @@
 | [Wilks feature importance](https://hess.copernicus.org/articles/25/4947/2021/hess-25-4947-2021.html)                                                                            | S                            | G                             | I                                   | 🛇                          | 🛇                                | ✓                      | 2021                | 1                                   | R and C                         | 🛇                                                                                                               |
 
 ## PRISMA
+
+### Journals
+
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/)
+- [IEEE](https://ieeexplore.ieee.org/Xplore/home.jsp)
+- [Artificial Intelligence in Medicine](https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine)
+
 ### Queries
- - Suggestion One from `payrovnaziri2020explainable`
-   ```
-   (
-   explainable          OR explainability 
-   OR interpretable     OR interpretability
-   OR understandable    OR understandability
-   OR comprehensible    OR comprehensibility 
-   OR intelligible)
-   AND 
-   (machine learning    OR artificial intelligence
-   OR prediction model  OR predictive model 
-   OR deep learning     OR neural network
-   OR AI
-   )
-   ```
-   
+
+- Example One from `payrovnaziri2020explainable`
+
+```
+(
+explainable          OR explainability 
+OR interpretable     OR interpretability
+OR understandable    OR understandability
+OR comprehensible    OR comprehensibility 
+OR intelligible)
+AND 
+(machine learning    OR artificial intelligence
+OR prediction model  OR predictive model 
+OR deep learning     OR neural network
+OR AI
+)
+```
+
+- Suggestion for **own** search tag - find in Abstract
+
+```
+(Explainable OR Interpretable OR Understanable OR Comprehensible OR Intelligible) AND ((Machine Learning OR ML) OR (Artificial Intelligence OR AI) OR ((Prediction OR Predictive) model))
+OR
+(((Prediction OR Predictive) model) OR (Machine Learning OR ML) OR (Artificial Intelligence OR AI)) AND (Explainability OR Interpretability OR Understandability OR Comprehensibility OR Intelligibility)
+OR
+(Machine Learning OR ML) OR (Artificial Intelligence OR AI) OR (Deep Learning OR Neural Network OR ANN) 
+```
