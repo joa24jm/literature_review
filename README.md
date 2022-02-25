@@ -45,7 +45,6 @@ For the full-text review: Which questions exactly do we have towards the paper?
 
 
 ### Which Query to run in the abstract OR title?
-#TODO: Shorten the search term as A&B == B&A
 ```
 (explainab* OR interpretab* OR understanab* OR comprehensib* OR intelligib*) 
 AND 
