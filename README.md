@@ -33,14 +33,26 @@
 | [Wilks feature importance](https://hess.copernicus.org/articles/25/4947/2021/hess-25-4947-2021.html)                                                                            | S                            | G                             | I                                   | 🛇                          | 🛇                                | ✓                      | 2021                | 1                                   | R and C                         | 🛇                                                                                                               |
 
 ## PRISMA
+To be discussed: Which query do we run in which Journal?
+For the full-text review: Which questions exactly do we have towards the paper?
 
-### Journals
+### Which academic search engines to find papers?
 
 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/)
 - [IEEE](https://ieeexplore.ieee.org/Xplore/home.jsp)
-- [Artificial Intelligence in Medicine](https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine)
+- [ACM](https://dl.acm.org/journals)
+- [Web of Science]
 
-### Queries
+
+### Which Query to run in the abstract OR title?
+#TODO: Shorten the search term as A&B == B&A
+```
+(explainab* OR interpretab* OR understanab* OR comprehensib* OR intelligib*) 
+AND 
+(("machine learning" OR ml) OR ("artificial intelligence" OR ai) OR ("predic* model" OR model) OR ("deep learning" OR neural network OR ann)
+AND
+(medic* OR health* OR health OR radiology OR *patient OR doctor OR physician OR surgeon)
+```
 
 - Example One from `payrovnaziri2020explainable`
 
@@ -59,12 +71,15 @@ OR AI
 )
 ```
 
-- Suggestion for **own** search tag - find in Abstract
-
-```
-(Explainable OR Interpretable OR Understanable OR Comprehensible OR Intelligible) AND ((Machine Learning OR ML) OR (Artificial Intelligence OR AI) OR ((Prediction OR Predictive) model))
-OR
-(((Prediction OR Predictive) model) OR (Machine Learning OR ML) OR (Artificial Intelligence OR AI)) AND (Explainability OR Interpretability OR Understandability OR Comprehensibility OR Intelligibility)
-OR
-(Machine Learning OR ML) OR (Artificial Intelligence OR AI) OR (Deep Learning OR Neural Network OR ANN) 
-```
+### Which questions to a full text review?
+- Machine Learning Pipeline described?
+- Source Code provided?
+- XAI Method used?
+- If yes:
+  - XAI Method's target audience:
+    - Doctors
+    - ML engineers
+    - patients
+    - other stakeholders
+- Data available or not or on request?
+- TBD: Does the model solve a real health care problem or not?
