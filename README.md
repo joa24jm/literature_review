@@ -46,28 +46,19 @@ For the full-text review: Which questions exactly do we have towards the paper?
 
 ### Which Query to run in the abstract OR title?
 ```
-(explainab* OR interpretab* OR understanab* OR comprehensib* OR intelligib*) 
+explainab* OR interpretab* OR understandab* OR comprehensib* OR intelligib*
 AND 
-(("machine learning" OR ml) OR ("artificial intelligence" OR ai) OR ("predic* model" OR model) OR ("deep learning" OR neural network OR ann)
+"machine learning" OR ml OR model OR "deep learning" OR neural network OR ann OR "artificial intelligence"
 AND
-(medic* OR health* OR health OR radiology OR *patient OR doctor OR physician OR surgeon)
+medic* OR health* OR health OR radiology OR patient OR doctor OR physician OR surgeon
 ```
 
-- Example One from `payrovnaziri2020explainable`
-
+#### PubMed Search Term (2661 Results, 2022-03-07)
 ```
-(
-explainable          OR explainability 
-OR interpretable     OR interpretability
-OR understandable    OR understandability
-OR comprehensible    OR comprehensibility 
-OR intelligible)
-AND 
-(machine learning    OR artificial intelligence
-OR prediction model  OR predictive model 
-OR deep learning     OR neural network
-OR AI
-)
+((explainab*[Title/Abstract] OR interpretab*[Title/Abstract] OR understandab*[Title/Abstract] OR comprehensib*[Title/Abstract] OR intelligib*[Title/Abstract]) 
+AND ("machine learning"[Title/Abstract] OR ml[Title/Abstract] OR model[Title/Abstract] OR "deep learning"[Title/Abstract] OR neural network[Title/Abstract] OR ann[Title/Abstract] OR "artificial intelligence"[Title/Abstract])) 
+AND (medic*[Title/Abstract] OR health*[Title/Abstract] OR health[Title/Abstract] OR radiology[Title/Abstract] OR patient[Title/Abstract] OR doctor[Title/Abstract] OR physician[Title/Abstract] OR surgeon[Title/Abstract]) 
+Filters: Abstract, from 2002 - 2022
 ```
 
 ### Which questions to a full text review?
