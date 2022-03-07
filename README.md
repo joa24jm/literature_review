@@ -51,17 +51,29 @@ AND
 "machine learning" OR ml OR model OR "deep learning" OR neural network OR ann OR "artificial intelligence"
 AND
 medic* OR health* OR health OR radiology OR patient OR doctor OR physician OR surgeon
+NOT
+"systematic review" OR "literature review" OR Prisma
 ```
 
-#### PubMed Search Term (2661 Results, 2022-03-07)
+#### PubMed Search Term (2568 Results, 2022-03-07)
 ```
-((explainab*[Title/Abstract] OR interpretab*[Title/Abstract] OR understandab*[Title/Abstract] OR comprehensib*[Title/Abstract] OR intelligib*[Title/Abstract]) 
-AND ("machine learning"[Title/Abstract] OR ml[Title/Abstract] OR model[Title/Abstract] OR "deep learning"[Title/Abstract] OR neural network[Title/Abstract] OR ann[Title/Abstract] OR "artificial intelligence"[Title/Abstract])) 
-AND (medic*[Title/Abstract] OR health*[Title/Abstract] OR health[Title/Abstract] OR radiology[Title/Abstract] OR patient[Title/Abstract] OR doctor[Title/Abstract] OR physician[Title/Abstract] OR surgeon[Title/Abstract]) 
+(((explainab*[Title/Abstract] OR interpretab*[Title/Abstract] OR understandab*[Title/Abstract] OR comprehensib*[Title/Abstract] OR intelligib*[Title/Abstract]) 
+AND 
+("machine learning"[Title/Abstract] OR ml[Title/Abstract] OR model[Title/Abstract] OR "deep learning"[Title/Abstract] OR neural network[Title/Abstract] OR ann[Title/Abstract] OR "artificial intelligence"[Title/Abstract])) 
+AND 
+(medic*[Title/Abstract] OR health*[Title/Abstract] OR health[Title/Abstract] OR radiology[Title/Abstract] OR patient[Title/Abstract] OR doctor[Title/Abstract] OR physician[Title/Abstract] OR surgeon[Title/Abstract])) 
+NOT 
+("literature review"[Title/Abstract] OR "systematic review"[Title/Abstract] OR Prisma[Title/Abstract])
 Filters: Abstract, from 2002 - 2022
 ```
 
+### Which questions for the abstract screening?
+- Concrete ML use case with concrete data and a concrete problem
+  - Yes: Include
+  - No:  Exclude
+
 ### Which questions to a full text review?
+#TODO: Create MS Forms sheet to answer those questions while reading
 - Machine Learning Pipeline described?
 - Source Code provided?
 - XAI Method used?
@@ -73,3 +85,4 @@ Filters: Abstract, from 2002 - 2022
     - other stakeholders
 - Data available or not or on request?
 - TBD: Does the model solve a real health care problem or not?
+  - Rather into discussion than for each paper separately
