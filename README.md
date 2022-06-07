@@ -68,7 +68,7 @@ Filters: Abstract, from 2002 - 2022
 ```
 
 ### Which questions for the abstract screening?
-- Concrete ML use case with concrete data and a concrete problem
+- Concrete ML use case with concrete data and a concrete problem and XAI method used
   - Yes: Include
   - No:  Exclude
 
@@ -76,13 +76,14 @@ Filters: Abstract, from 2002 - 2022
 #TODO: Create MS Forms sheet to answer those questions while reading
 - Machine Learning Pipeline described?
 - Source Code provided?
-- XAI Method used?
+- Which XAI Method is used?
 - If yes:
   - XAI Method's target audience:
     - Doctors
     - ML engineers
     - patients
     - other stakeholders
+- If No XAI method used:
+  - Exclude from review
 - Data available or not or on request?
-- TBD: Does the model solve a real health care problem or not?
-  - Rather into discussion than for each paper separately
+
