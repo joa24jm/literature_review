@@ -3,60 +3,60 @@ Intrinsic interpretable,33.0,34.0,2.0,25.0
 Random Forest Feature Importance,9.0,19.0,5.0,13.0
 "Class Activation Mapping or related (i. e., Grad-CAM)",7.0,40.0,22.0,23.0
 LIME,5.0,24.0,5.0,6.0
-Attention Weight,2.0,2.0,1.0,3.0
-Partial Dependence Plots,2.0,10.0,2.0,
 DeepLift,2.0,1.0,,
-Permutation Importance,1.0,3.0,,1.0
-Logistic Regression,1.0,,,
-Mean DeepLift Feature Relevance,1.0,,,
-Rough Set-Based Rule Learning,1.0,,,
-Attention Weightof RNN,1.0,,,
+Partial Dependence Plots,2.0,10.0,2.0,
+Attention Weight,2.0,2.0,1.0,3.0
+Comment: Decision Tree used but not shown.,1.0,,,
 t-SNE Vizualization,1.0,,,
-Post-Hoc Decision Tree,1.0,1.0,,
+Information Gain Feature Importance,1.0,,,
+Rough Set-Based Rule Learning,1.0,,,
+SQRex-SVM,1.0,,,
 SHAP,1.0,73.0,25.0,20.0
+Attention Weightof RNN,1.0,,,
+Mean DeepLift Feature Relevance,1.0,,,
+cumulative distribution plots,1.0,,,
+Permutation Importance,1.0,3.0,,1.0
 Occlusion maps,1.0,,,
 Weilbull-Cox ,1.0,,,
 Layer-Wise Relevance Propagation,1.0,4.0,1.0,3.0
-SQRex-SVM,1.0,,,
-cumulative distribution plots,1.0,,,
-Information Gain Feature Importance,1.0,,,
-Comment: Decision Tree used but not shown.,1.0,,,
+Logistic Regression,1.0,,,
+Post-Hoc Decision Tree,1.0,1.0,,
 Saliency Map,,5.0,1.0,2.0
-"RISE, Squaregrid, Vanilla Gradients, Smooth Gradients, Integrated Gradients",,1.0,,
-Feature Importance Plots,,1.0,,
-Testing Concept Activation Vectors,,1.0,,
-Heatmaps,,1.0,,
-Activization Maximization,,1.0,,
-class-contrastive analysis,,1.0,,
-Show similar examples with same label,,1.0,,
-Rule Extraction ,,1.0,,
-guided back-propagation,,1.0,,
-Integrated Gradients,,1.0,,
 "(Comment: Provide Examples of TP, TN, FP, FN)",,1.0,,
-Attention gated networks (Schlemper et. al.),,1.0,,
-"saliency, guided backpropagation, integrated gradients",,1.0,,
-ExplAIn,,1.0,,
-GSInquire,,1.0,,1.0
-Shannon entropy,,1.0,,
-"Accumulated local effects plots, individual conditional expectation (ICE) plots",,1.0,,
-"impact, impact score",,1.0,,
-Global variable importance,,1.0,,
-"accumulated local effect (ALE) plots, and H-statistic feature interaction",,1.0,,
-Accumulated local effect plots,,1.0,,
-DeepSHAP,,1.0,,
-Attention layer used for feature importance,,1.0,,
-spatiotemporal rules,,1.0,,
 "contrastive explanation, counterfactual method",,1.0,,
-prediction heatmap,,1.0,,
+"accumulated local effect (ALE) plots, and H-statistic feature interaction",,1.0,,
+ExplAIn,,1.0,,
+Show similar examples with same label,,1.0,,
+Accumulated local effect plots,,1.0,,
 Feature Importance (not clear how it is calculated),,1.0,,
+Activization Maximization,,1.0,,
+Integrated Gradients,,1.0,,
+Feature Importance Plots,,1.0,,
+prediction heatmap,,1.0,,
+Global variable importance,,1.0,,
 "visual concept detectors (Note: Grouping similar images that belong to one ""concept"") Also used a decision tree",,1.0,,
+GSInquire,,1.0,,1.0
+"impact, impact score",,1.0,,
+DeepSHAP,,1.0,,
+Attention gated networks (Schlemper et. al.),,1.0,,
+"Accumulated local effects plots, individual conditional expectation (ICE) plots",,1.0,,
+guided back-propagation,,1.0,,
+"RISE, Squaregrid, Vanilla Gradients, Smooth Gradients, Integrated Gradients",,1.0,,
+class-contrastive analysis,,1.0,,
+Testing Concept Activation Vectors,,1.0,,
+spatiotemporal rules,,1.0,,
+"saliency, guided backpropagation, integrated gradients",,1.0,,
+Heatmaps,,1.0,,
+Rule Extraction ,,1.0,,
+Shannon entropy,,1.0,,
+Attention layer used for feature importance,,1.0,,
 "SmoothGrad, Integrated Gradients",,,1.0,
-ROI feature importance (comment: not explained what ROI actually means)),,,,1.0
-Attention score map,,,,1.0
-lightGBM,,,,1.0
-Attention-based pooling,,,,1.0
-attention-based Multiple Instance Learning pooling (attention layer in Neural Network),,,,1.0
-Attention Map (Costa et al. (2019) ),,,,1.0
 occlusion analysis,,,,1.0
 SF,,,,1.0
+ROI feature importance (comment: not explained what ROI actually means)),,,,1.0
+attention-based Multiple Instance Learning pooling (attention layer in Neural Network),,,,1.0
+lightGBM,,,,1.0
 item response theory (IRT),,,,1.0
+Attention Map (Costa et al. (2019) ),,,,1.0
+Attention-based pooling,,,,1.0
+Attention score map,,,,1.0
