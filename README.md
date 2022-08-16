@@ -18,7 +18,7 @@ Filters: Abstract, from 2002 - 2022
 ![](/plots/prisma-result_alt2.png)
 
 ### Research questions
-![](/readme_img/prisma.png)
+![](/readme_img/ms_forms.png)
 
 ## Included Methods
 
