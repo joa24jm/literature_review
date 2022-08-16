@@ -14,7 +14,8 @@ NOT
 Filters: Abstract, from 2002 - 2022
 ```
 
-![](\plots\prisma-result_alt2.png)
+### PRISMA Flowchart
+![Prisma Result](\plots\prisma-result_alt2.png)
 
 ## Included Methods
 
