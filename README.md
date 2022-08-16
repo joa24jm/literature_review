@@ -17,6 +17,9 @@ Filters: Abstract, from 2002 - 2022
 ### PRISMA Flowchart
 ![](/plots/prisma-result_alt2.png)
 
+### Research questions
+![](/readme_img/prisma.png)
+
 ## Included Methods
 
 | Method / Taxonomy                                                                                                                                                               | Specific (S)<br> or <br>Agnostic (A) | Local (L)<br>or<br>Global (G) | Intrinsic (I)<br>or<br>Post-Hoc (P) | Adresses<br>Neural Networks | Adresses<br>Computer Vision Tasks | Addresses <br>Tabular Data | Year <br>of publication | \# citations in<br>Google Scholar<br>as of 21-12-03 | Regr. (R)<br>or<br>Classif. (C) | Source Code<br>Freely Available                                                                                  |
