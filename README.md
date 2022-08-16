@@ -1,6 +1,12 @@
 # How do you come to your predictions? A systematic literature review on Machine learning explainability in healthcare
 
-## PRISMA
+This ReadMe contains supplementary material for our research paper about explainable AI in medicine.
+It is divided into two parts: **PRISMA Literature Review** and **Explainable Artificial Intelligence Methods**.
+The first part shows which search terms we used and how the questionnaire looks like that we filled out for each paper during the full screening process.
+The second parts gives a deeper introduction into each XAI method that we considered for our review, which is beyond the scope of the main paper.
+For any questions, please contact the corresponding author [johannes.allgaier@uni-wuerzburg.de]. 
+
+## PRISMA Literature Review
 
 **PubMed Search Term Results (2568 Papers as by 2022-03-07)**
 ```
@@ -20,7 +26,7 @@ Filters: Abstract, from 2002 - 2022
 ### Research questions
 ![](/readme_img/ms_forms.png)
 
-## Included Methods
+## Explainable Artificial Intelligence Methods
 
 | Method / Taxonomy                                                                                                                                                               | Specific (S)<br> or <br>Agnostic (A) | Local (L)<br>or<br>Global (G) | Intrinsic (I)<br>or<br>Post-Hoc (P) | Adresses<br>Neural Networks | Adresses<br>Computer Vision Tasks | Addresses <br>Tabular Data | Year <br>of publication | \# citations in<br>Google Scholar<br>as of 21-12-03 | Regr. (R)<br>or<br>Classif. (C) | Source Code<br>Freely Available                                                                                  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ----------------------------- | ----------------------------------- | --------------------------- | --------------------------------- | ---------------------- | ------------------- | ----------------------------------- | ------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
