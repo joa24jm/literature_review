@@ -4,7 +4,7 @@ This ReadMe contains supplementary material for our research paper about explain
 It is divided into two parts: **PRISMA Literature Review** and **Explainable Artificial Intelligence Methods**.
 The first part shows which search terms we used and how the questionnaire looks like that we filled out for each paper during the full screening process.
 The second parts gives a deeper introduction into each XAI method that we considered for our review, which is beyond the scope of the main paper.
-For any questions, please contact the corresponding author [johannes.allgaier@uni-wuerzburg.de][johannes.allgaier@uni-wuerzburg.de]. 
+For any questions, please contact the corresponding author [johannes.allgaier@uni-wuerzburg.de](johannes.allgaier@uni-wuerzburg.de). 
 
 ## PRISMA Literature Review
 
