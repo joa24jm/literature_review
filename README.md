@@ -1,4 +1,4 @@
-# How do you come to your predictions? A systematic literature review on Machine learning explainability in healthcare
+# How does the model make predictions? A systematic literature review on the explainability power of machine learning in healthcare.
 
 This ReadMe contains supplementary material for our research paper about explainable AI in medicine.
 It is divided into two parts: **PRISMA Literature Review** and **Explainable Artificial Intelligence Methods**.
