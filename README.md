@@ -325,3 +325,6 @@ The authors apply the method to their own input images and parts of the MNIST da
 For some input images this method works better than comparable ones like Integrated Gradients(sundararajan2017axiomatic} or Guided Backpropagation\cite{springenberg2014striving). The method can also be combined with other methods.
 **Limitation**
 It remains unclear for which type of images the method works better than others. There is no discernible pattern for the examples shown in the paper.
+
+## Funding
+This publication was supported by the Open Access Publication Fund of the University of Wuerzburg.
